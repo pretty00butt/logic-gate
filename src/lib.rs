@@ -20,8 +20,6 @@ mod tests {
     fn test_and() {
         assert_eq!(1, and(1, 1));
         assert_eq!(0, and(1, 0));
-        assert_eq!(0, and(0, 1));
-        assert_eq!(0, and(0, 0));
     }
 
     #[test]
